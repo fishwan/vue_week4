@@ -1,0 +1,37 @@
+
+/*---- BASE ----*/
+html,
+body {
+    height: 100%;
+}
+
+img {
+    object-fit: contain;
+    max-width: 100%;
+}
+  
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.image {
+    height: 250px;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+}
+
+.images {
+    height: 120px;
+    border-radius: 5px;
+}
+
+.images + .images {
+    margin-left: 1rem;
+}
+
+.page-login {
+    width: 300px;
+    margin: auto;
+}
